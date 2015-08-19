@@ -86,8 +86,8 @@ if (isset($code)) {
                     $stmt->execute();
                     if ($stmt->fetch()) {
                         echo '<script language="javascript">';
-            			echo 'document.location="success.php"';
-            			echo '</script>';
+                        echo 'document.location="success.php"';
+                        echo '</script>';
                         exit;
                     }
                 }
